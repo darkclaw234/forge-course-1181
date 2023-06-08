@@ -1,5 +1,6 @@
 package net.darkclaw.mccourse;
 
+import net.darkclaw.mccourse.block.ModBlocks;
 import net.darkclaw.mccourse.item.ModItems;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -32,6 +33,7 @@ public class MCCourseMod
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
 
