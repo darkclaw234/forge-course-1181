@@ -1,6 +1,7 @@
 package net.darkclaw.mccourse.block;
 
 import net.darkclaw.mccourse.MCCourseMod;
+import net.darkclaw.mccourse.item.ModCreativeModeTab;
 import net.darkclaw.mccourse.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -22,11 +23,11 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> COBALT_BLOCK = registerBlock("cobalt_block",
         () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                .strength(5f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+                .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.COURSE_TAB);
 
     public static final RegistryObject<Block> COBALT_ORE = registerBlock("cobalt_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(4f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+                    .strength(4f).requiresCorrectToolForDrops()), ModCreativeModeTab.COURSE_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock
                                     (String name, Supplier<T> block, CreativeModeTab tab){

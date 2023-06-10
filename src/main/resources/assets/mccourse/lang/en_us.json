@@ -3,5 +3,7 @@
   "item.mccourse.cobalt_nugget": "Cobalt Nugget",
 
   "block.mccourse.cobalt_block": "Cobalt Block",
-  "block.mccourse.cobalt_ore": "Cobalt Ore"
+  "block.mccourse.cobalt_ore": "Cobalt Ore",
+
+  "itemGroup.coursemodtab": "MCCourse Tab"
 }
