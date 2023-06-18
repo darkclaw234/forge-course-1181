@@ -1,6 +1,7 @@
 package net.darkclaw.mccourse.block;
 
 import net.darkclaw.mccourse.MCCourseMod;
+import net.darkclaw.mccourse.block.custom.SpeedyBlock;
 import net.darkclaw.mccourse.item.ModCreativeModeTab;
 import net.darkclaw.mccourse.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -33,6 +34,10 @@ public class ModBlocks {
                     .strength(4f).requiresCorrectToolForDrops()), ModCreativeModeTab.COURSE_TAB);
     public static final RegistryObject<Block> DEEPSLATE_COBALT_ORE = registerBlock("deepslate_cobalt_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(4f).requiresCorrectToolForDrops()), ModCreativeModeTab.COURSE_TAB);
+
+    public static final RegistryObject<Block> SPEEDY_BLOCK = registerBlock("speedy_block",
+            () -> new SpeedyBlock(BlockBehaviour.Properties.of(Material.DIRT)
                     .strength(4f).requiresCorrectToolForDrops()), ModCreativeModeTab.COURSE_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock
