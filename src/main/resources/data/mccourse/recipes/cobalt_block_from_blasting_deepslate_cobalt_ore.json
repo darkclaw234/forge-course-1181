@@ -1,8 +1,8 @@
 {
-  "type": "minecraft:smelting",
-  "group": "cobalt_ingot",
+  "type": "minecraft:blasting",
+  "group": "iron_ingot",
   "ingredient": {
-    "item": "mccourse:raw_cobalt"
+    "item": "mccourse:deepslate_cobalt_ore"
   },
   "result": "mccourse:cobalt_block",
   "experience": 0.7,
