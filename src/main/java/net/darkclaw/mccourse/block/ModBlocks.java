@@ -24,7 +24,6 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, MCCourseMod.MOD_ID);
 
-
     public static final RegistryObject<Block> COBALT_BLOCK = registerBlock("cobalt_block",
         () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                 .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.COURSE_TAB);
