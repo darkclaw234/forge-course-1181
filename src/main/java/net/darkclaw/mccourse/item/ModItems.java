@@ -1,6 +1,7 @@
 package net.darkclaw.mccourse.item;
 
 import net.darkclaw.mccourse.MCCourseMod;
+import net.darkclaw.mccourse.item.custom.CoalSliverItem;
 import net.darkclaw.mccourse.item.custom.DowsingRodItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -27,6 +28,12 @@ public class ModItems {
 
     public static final RegistryObject<Item> DOSWING_ROD = ITEMS.register("dowsing_rod",
             () -> new DowsingRodItem(new Item.Properties().tab(ModCreativeModeTab.COURSE_TAB).durability(64)));
+
+    public static final RegistryObject<Item> COAL_SLIVER = ITEMS.register("coal_sliver",
+            () -> new CoalSliverItem(new Item.Properties().tab(ModCreativeModeTab.COURSE_TAB)));
+
+    public static final RegistryObject<Item> BLUEBERRIES = ITEMS.register("blueberries",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.COURSE_TAB).food(ModFoods.BLUEBERRIES)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

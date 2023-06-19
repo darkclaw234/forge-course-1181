@@ -4,6 +4,8 @@
   "item.mccourse.raw_cobalt": "Raw Cobalt",
   "item.mccourse.powered_lapis_lazuli": "Powered Lapis Lazuli",
   "item.mccourse.dowsing_rod": "Dowsing Rod",
+  "item.mccourse.coal_sliver": "Coal Sliver",
+  "item.mccourse.blueberries": "Blueberries",
 
   "block.mccourse.cobalt_block": "Cobalt Block",
   "block.mccourse.raw_cobalt_block": "Raw Cobalt Block",
@@ -14,5 +16,9 @@
 
   "itemGroup.coursemodtab": "MCCourse Tab",
 
-  "item.mccourse.dowsing_rod.no_valuables": "No Valuables Found."
+  "item.mccourse.dowsing_rod.no_valuables": "No Valuables Found.",
+
+  "tooltip.mccourse.dowsing_rod.tooltip.shift": "Right Click to find Valuable Ores Underground!",
+  "tooltip.mccourse.dowsing_rod.tooltip": "Press §eSHIFT§r for more Information!",
+  "tooltip.block.speedy_block": "It gets REALLY speedy!"
 }
