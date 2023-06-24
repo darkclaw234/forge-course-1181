@@ -9,6 +9,8 @@ import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SlabBlock;
+import net.minecraft.world.level.block.StairBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -31,6 +33,15 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.COURSE_TAB);
 
+    public static final RegistryObject<Block> COBALT_STAIRS = registerBlock("cobalt_stairs",
+            () -> new StairBlock(() -> ModBlocks.COBALT_BLOCK.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.COURSE_TAB);
+
+    public static final RegistryObject<Block> COBALT_SLAB = registerBlock("cobalt_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.COURSE_TAB);
+
     public static final RegistryObject<Block> COBALT_ORE = registerBlock("cobalt_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(4f).requiresCorrectToolForDrops()), ModCreativeModeTab.COURSE_TAB);
@@ -38,10 +49,12 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(4f).requiresCorrectToolForDrops()), ModCreativeModeTab.COURSE_TAB);
 
+
     public static final RegistryObject<Block> SPEEDY_BLOCK = registerBlock("speedy_block",
             () -> new SpeedyBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(2f).requiresCorrectToolForDrops()),
                     ModCreativeModeTab.COURSE_TAB, "tooltip.block.speedy_block");
+
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block,
