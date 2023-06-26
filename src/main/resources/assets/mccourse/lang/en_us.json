@@ -2,6 +2,19 @@
   "item.mccourse.cobalt_ingot": "Cobalt Ingot",
   "item.mccourse.cobalt_nugget": "Cobalt Nugget",
   "item.mccourse.raw_cobalt": "Raw Cobalt",
+
+  "item.mccourse.cobalt_sword": "Cobalt Sword",
+  "item.mccourse.cobalt_pickaxe": "Cobalt Pickaxe",
+  "item.mccourse.cobalt_axe": "Cobalt Axe",
+  "item.mccourse.cobalt_shovel": "Cobalt Shovel",
+  "item.mccourse.cobalt_hoe": "Cobalt Hoe",
+  "item.mccourse.cobalt_paxel": "Cobalt Paxel",
+
+  "item.mccourse.cobalt_helmet": "Cobalt Helmet",
+  "item.mccourse.cobalt_chestplate": "Cobalt Chestplate",
+  "item.mccourse.cobalt_leggings": "Cobalt Leggings",
+  "item.mccourse.cobalt_boots": "Cobalt Boots",
+
   "item.mccourse.powered_lapis_lazuli": "Powered Lapis Lazuli",
   "item.mccourse.dowsing_rod": "Dowsing Rod",
   "item.mccourse.coal_sliver": "Coal Sliver",
