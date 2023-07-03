@@ -1,6 +1,7 @@
 package net.darkclaw.mccourse.block;
 
 import net.darkclaw.mccourse.MCCourseMod;
+import net.darkclaw.mccourse.block.custom.CobaltLampBlock;
 import net.darkclaw.mccourse.block.custom.SpeedyBlock;
 import net.darkclaw.mccourse.item.ModCreativeModeTab;
 import net.darkclaw.mccourse.item.ModItems;
@@ -73,6 +74,12 @@ public class ModBlocks {
             () -> new SpeedyBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(2f).requiresCorrectToolForDrops()),
                     ModCreativeModeTab.COURSE_TAB, "tooltip.block.speedy_block");
+
+    public static final RegistryObject<Block> COBALT_LAMP = registerBlock("cobalt_lamp",
+            () -> new CobaltLampBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(2f).requiresCorrectToolForDrops()
+                    .lightLevel((state) -> state.getValue(CobaltLampBlock.CLICKED) ? 15 : 0)),
+            ModCreativeModeTab.COURSE_TAB);
 
 
 
