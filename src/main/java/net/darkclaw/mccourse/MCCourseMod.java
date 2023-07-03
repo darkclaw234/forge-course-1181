@@ -1,6 +1,7 @@
 package net.darkclaw.mccourse;
 
 import net.darkclaw.mccourse.block.ModBlocks;
+import net.darkclaw.mccourse.enchantment.ModEnchantments;
 import net.darkclaw.mccourse.item.ModItems;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
@@ -37,6 +38,8 @@ public class MCCourseMod
 
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);
+
+        ModEnchantments.register(eventBus);
 
         eventBus.addListener(this::setup);
         eventBus.addListener(this::clientSetup);
