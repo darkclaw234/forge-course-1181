@@ -18,12 +18,12 @@
 
   "item.mccourse.powered_lapis_lazuli": "Powered Lapis Lazuli",
   "item.mccourse.dowsing_rod": "Dowsing Rod",
+  "item.mccourse.data_tablet": "Data Tablet",
   "item.mccourse.coal_sliver": "Coal Sliver",
   "item.mccourse.blueberries": "Blueberries",
 
   "block.mccourse.cherry_blossom_door": "Cherry Blossom Door",
   "block.mccourse.cherry_blossom_trapdoor": "Cherry Blossom Trapdoor",
-
   "block.mccourse.cobalt_block": "Cobalt Block",
   "block.mccourse.raw_cobalt_block": "Raw Cobalt Block",
   "block.mccourse.cobalt_stairs": "Cobalt Stairs",
@@ -34,8 +34,6 @@
   "block.mccourse.cobalt_fence_gate": "Cobalt Fence Gate",
   "block.mccourse.cobalt_wall": "Cobalt Wall",
   "block.mccourse.cobalt_lamp": "Cobalt Lamp",
-
-
   "block.mccourse.cobalt_ore": "Cobalt Ore",
   "block.mccourse.deepslate_cobalt_ore": "Deepslate Cobalt Ore",
 
